@@ -1,0 +1,44 @@
+html {
+	background-color: var(--main);
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	min-height: 100vh;
+	background-color: var(--main);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Texts */
+
+h1,
+h2,
+h3,
+h4 {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+h4.subtitle {
+}
+
+p,
+span,
+button,
+caption,
+address,
+button,
+li,
+a {
+}

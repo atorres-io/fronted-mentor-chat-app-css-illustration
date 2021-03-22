@@ -1,0 +1,8 @@
+{
+	"name": "frontend-mentor-chat-app-css-illustration",
+	"version": "1.0.0",
+	"private": false,
+	"description": "Chat app CSS illustration of Frontend Mentor Challenge",
+	"main": "app.js",
+	"author": "Alejandro Torres"
+}
