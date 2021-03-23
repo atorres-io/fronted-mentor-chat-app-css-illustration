@@ -28,6 +28,8 @@ body::before {
 	max-height: 85%;
 	background: var(--gradient-top);
 	border-radius: 0 0 30rem 30rem;
+
+	animation: leftDecorationApp 1.2s ease-in 250ms both;
 }
 
 main {
@@ -58,4 +60,6 @@ main::before {
 	background-color: var(--mobile-chat);
 	border-radius: 30rem 30rem 0 0;
 	z-index: -1;
+
+	animation: rightDecorationApp 1s ease-out 300ms both;
 }
