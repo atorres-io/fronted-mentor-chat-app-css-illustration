@@ -29,7 +29,7 @@ body::before {
 	background: var(--gradient-top);
 	border-radius: 0 0 30rem 30rem;
 
-	animation: leftDecorationApp 1.2s ease-in 250ms both;
+	animation: leftDecorationApp 900ms ease 250ms both;
 }
 
 main {
@@ -61,5 +61,5 @@ main::before {
 	border-radius: 30rem 30rem 0 0;
 	z-index: -1;
 
-	animation: rightDecorationApp 1s ease-out 300ms both;
+	animation: rightDecorationApp 800ms ease-out 300ms both;
 }

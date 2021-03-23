@@ -9,7 +9,7 @@
 	box-shadow: 0 14px 30px -8px rgb(0 0 0 / 14%);
 
 	margin-right: 6rem;
-	animation: mobile 2s ease 1s both;
+	animation: mobile 1.2s ease 700ms both;
 }
 
 .mobile::after {
@@ -28,7 +28,7 @@
 	height: auto;
 	max-width: 420px;
 
-	animation: content 900ms ease-out 1.2s both;
+	animation: content 800ms ease-out 1s both;
 }
 
 .wrapper__content h1 {
