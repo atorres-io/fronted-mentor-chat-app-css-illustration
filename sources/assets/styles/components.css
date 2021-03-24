@@ -32,6 +32,7 @@
 	width: 100%;
 	height: 5.5rem;
 	border-radius: 1rem 1rem 0.4rem 0.4rem;
+	box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
 	background: var(--gradient-left);
 
 	animation: mobileHeader 700ms ease 1.2s both;
