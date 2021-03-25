@@ -1,3 +1,18 @@
+.mobile__header div {
+	display: block;
+	flex-grow: 1;
+}
+
+.mobile__header img {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+	border: solid 1px var(--white);
+	object-position: center center;
+	object-fit: cover;
+}
+
 .wrapper__mobile__input {
 	position: fixed;
 	bottom: 0.6rem;
@@ -17,9 +32,6 @@
 	background-color: var(--white);
 	border: none;
 	border-radius: 30rem;
-	font-weight: 400; /* 400, 500, 700 */
-	font-family: 'Rubik', sans-serif;
-	font-size: 11px;
 }
 
 .mobile__input--message::placeholder {
@@ -57,29 +69,65 @@
 	background-color: var(--white);
 	color: var(--mobile-main-right);
 	box-shadow: 0 5px 20px 0px rgb(0 0 0 / 5%);
-	font-weight: 400; /* 400, 500, 700 */
 	line-height: 0.85rem;
-	font-family: 'Rubik', sans-serif;
-	font-size: 11px;
 }
 
 .message__visitante {
 	align-self: flex-start;
 	width: auto;
-	width: auto;
+	height: auto;
 	max-width: 70%;
 	margin: 0.3rem 0;
 	padding: 0.5rem;
 	border-radius: 0.8rem 0.8rem 0.8rem 0.3rem;
 	background-color: rgb(229 112 255 / 8%);
 	color: var(--mobile-main-left);
-	font-weight: 400; /* 400, 500, 700 */
 	line-height: 0.85rem;
-	font-family: 'Rubik', sans-serif;
-	font-size: 11px;
 }
 
 .message__visitante--select {
+	align-self: flex-start;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: auto;
+	max-width: 75%;
+	margin: 0.3rem 0;
+	padding: 0.6rem 0.7rem 0.6rem 0.5rem;
+	background: var(--gradient-right);
+	border-radius: 0.8rem 0.8rem 0.8rem 0.3rem;
+}
+
+.message__visitante--select input[type='radio'] {
+	position: relative;
+	appearance: none;
+	width: 0.9rem;
+	height: 0.9rem;
+	border: solid 1px var(--mobile-radio);
+	background-color: transparent;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+	cursor: pointer;
+}
+
+.message__visitante--select input[type='radio']:checked::after {
+	--size: 0.5rem;
+
+	position: absolute;
+	top: 0.18rem;
+	left: calc(50% - calc(var(--size) / 2));
+	content: '';
+	width: var(--size);
+	height: var(--size);
+	background-color: var(--white);
+	border-radius: 50%;
+}
+
+.message__visitante--select label {
+	color: var(--mobile-header-subtitle);
+	margin-right: 2rem;
 }
 
 .wrapper__message--images {

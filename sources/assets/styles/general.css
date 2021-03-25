@@ -63,3 +63,53 @@ main::before {
 
 	animation: rightDecorationApp 800ms ease-out 300ms both;
 }
+
+/* Texts */
+
+h1 {
+	font-weight: 500; /* 400, 500, 700 */
+	line-height: 2rem;
+	font-family: 'Rubik', sans-serif;
+	font-size: 36px;
+	color: var(--text-title);
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-weight: 500; /* 400, 500, 700 */
+	font-family: 'Rubik', sans-serif;
+	font-size: 13px;
+	color: var(--white);
+	margin-bottom: 0.25rem;
+}
+
+h4.subtitle1 {
+	font-weight: 400; /* 400, 500, 700 */
+	font-family: 'Rubik', sans-serif;
+	font-size: 9px;
+	color: var(--mobile-header-subtitle);
+	margin-top: 0.25rem;
+}
+
+p,
+label,
+input {
+	font-weight: 400; /* 400, 500, 700 */
+	font-family: 'Rubik', sans-serif;
+	font-size: 11px;
+}
+
+span {
+	color: var(--white);
+	font-weight: 500; /* 400, 500, 700 */
+	font-family: 'Rubik', sans-serif;
+	font-size: 15px;
+}
+
+p.content {
+	font-weight: 400; /* 400, 500, 700 */
+	line-height: 1.7rem;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	color: var(--text-body);
+}

@@ -1,3 +1,7 @@
+.euPrice::before {
+	content: '$';
+}
+
 .message__animation--1 {
 	animation: bounceInLeft 1s ease 1.3s both;
 }
