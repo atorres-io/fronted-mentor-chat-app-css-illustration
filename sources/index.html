@@ -19,7 +19,12 @@
 
 		<main>
 			<section class="mobile">
-				<div class="mobile__header"></div>
+				<div class="mobile__header">
+					<!-- Icon -->
+					<img src="assets/images/avatar.jpg" alt="Avatar" lazy="loading" />
+					<div><h3>Samuel Green</h3><h4 class="subtitle1">Available to Walk</h4></div>
+					<!-- Icon -->
+				</div>
 				<div class="mobile__main">
 					<p class="message__visitante message__animation--1">That sounds great. I’d be happy to discuss more.</p>
 					<p class="message__visitante message__animation--2">Could you send over some pictures of your dog, please?</p>
@@ -31,17 +36,27 @@
 					<p class="message__local message__animation--4">Here are a few pictures. She’s a happy girl!</p>
 					<p class="message__local message__animation--5">Can you make it?</p>
 					<p class="message__visitante message__animation--6">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
-					
-
+					<div class="message__visitante--select message__animation--7">
+						<input type="radio" id="select30" name="select" value="30" />
+						<label for="select30">30 minute walk</label>
+						<span class="euPrice">29</span>
+					</div>
+					<div class="message__visitante--select message__animation--8">
+						<input type="radio" id="select1" name="select" value="1" />
+						<label for="select1">1 hour walk</label>
+						<span class="euPrice">49</span>
+					</div>
 				</div>
 				<div class="wrapper__mobile__input">
 					<input type="text" class="mobile__input--message" placeholder="Type a message..." />
-					<button type="submit" class="mobile__button--send"></button>
+					<button type="submit" class="mobile__button--send">
+						<!-- Icon -->
+					</button>
 				</div>
 			</section>
 			<section class="wrapper__content">
 				<h1>Simple booking</h1>
-				<p>Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+				<p class="content">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
 					discuss arrangements and make bookings. Once the walk has been completed you can rate 
 					your walker and book again all through the chat.
 				</p>
