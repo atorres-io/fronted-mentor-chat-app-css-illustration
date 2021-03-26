@@ -11,7 +11,6 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -21,18 +20,18 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- View the optimal layout for the component depending on their device's screen size
+- **Bonus**: See the chat interface animate on the initial load
 
 ### Screenshot
 
-<img src='sources/assets/images/final.app/design-desktop.png' width='350px' />
+<img src='sources/assets/images/final.app/design-desktop.png' width='600px' />
 <img src='sources/assets/images/final.app/design-mobile.png' width='250px' />
 
 ### Links
 
-- Solution URL: [Github URL here]()
-- Live Site URL: [Live Site URL here]()
+- Solution URL: [Github URL here](https://github.com/atorres-io/frontend-mentor-chat-app-css-illustration)
+- Live Site URL: [Live Site URL here](https://vigilant-brattain-76ce54.netlify.app/)
 
 ## My process
 
@@ -40,20 +39,24 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS animations
 - Flexbox
+- Mobile-first workflow
 - BEM methodology
 - ITCSS architecture
 
 ### What I learned
 
-### Continued development
+A project with animate on the initial load.
 
 ### Useful resources
+
+- [Animatecss](https://animate.style/) - I saw in a quick and easy way what the animations that I used in the project were like.
 
 ## Author
 
 - Instagram - [@atorres.designs](https://www.instagram.com/atorres.designs/)
 - Frontend Mentor - [@atorres-io](https://www.frontendmentor.io/profile/atorres-io)
-- Github - [/atorres-io](https://github.com/atorres-io)
-- Codepen - [/atorres-designs](https://codepen.io/atorres-designs)
-- LinkedIn - [/atorresalcala](https://www.linkedin.com/in/atorresalcala)
+- Github - [@atorres-io](https://github.com/atorres-io)
+- Codepen - [@atorres-designs](https://codepen.io/atorres-designs)
+- LinkedIn - [@atorresalcala](https://www.linkedin.com/in/atorresalcala)
